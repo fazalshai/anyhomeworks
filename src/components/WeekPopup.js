@@ -149,7 +149,7 @@ const WeekPopup = ({ course, week, onClose }) => {
         content = `Content for ${week}...`;
         break;
     }
-  } else if (course === 'Course 2') {
+  } else if (course === 'Psychology of Learning') {
     switch (week) {
       case 'Week 1':
         content = (
@@ -284,7 +284,7 @@ const WeekPopup = ({ course, week, onClose }) => {
         content = `Content for ${week}...`;
         break;
     }
-  }  else if (course === 'Course 3') {
+  }  else if (course === 	'Sociology of Development') {
     switch (week) {
       case 'Week 1':
         content = (
