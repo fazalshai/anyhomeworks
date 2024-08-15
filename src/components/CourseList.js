@@ -7,8 +7,8 @@ import './CourseList.css';
 const courses = [
   { name: 'Design and Implementation of Human-Computer Interfaces' },
   { name: 'Psychology of Learning' },
-  { name: 'Course 3' },
-  { name: 'Course 4' },
+  { name: 'Sociology of Development' },
+  { name: 'Social Innovation in Industry 4.0' },
   { name: 'Course 5' },
   { name: 'Course 6' }
 ];
