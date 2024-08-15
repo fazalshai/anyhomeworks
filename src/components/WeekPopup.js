@@ -9,19 +9,7 @@ const WeekPopup = ({ course, week, onClose }) => {
       case 'Week 1':
         content = (
           <ul>
-            <li>hello</li>
-            <li>1234</li>
-            <li>hello</li>
-            <li>hello</li>
-            <li>1234</li>
-            <li>hello</li>
-            <li>hello</li>
-            <li>1234</li>
-            <li>hello</li> <li>hello</li>
-            <li>1234</li>
-            <li>hello</li> <li>hello</li>
-            <li>1234</li>
-            <li>hello</li>
+           
             {/* Add more items as needed */}
           </ul>
         );
@@ -48,12 +36,19 @@ const WeekPopup = ({ course, week, onClose }) => {
         break;
       case 'Week 4':
         content = (
-          <ul>
-            <li> fazal hello          </li>
-            <li>shaik</li>
-            <li>Week 4 - Topic C</li>
+          <ol>
+            <li> a. actions </li>
+            <li>c. To test the system's usability with respect to the end users</li>
+            <li>b. To make the system easier to learn and use</li>
+        <li>a. Gulf of execution</li>
+            <li>b. mistakes</li>
+            <li> c. evaluation</li>
+        <li> a. True </li>
+            <li>a. True</li>
+            <li> a. Low fidelity</li>
+        <li>c. Wizard of Oz</li>
             {/* Add more items as needed */}
-          </ul>
+          </ol>
         );
         break;
       case 'Week 5':
@@ -184,9 +179,16 @@ const WeekPopup = ({ course, week, onClose }) => {
       case 'Week 4':
         content = (
           <ul>
-            <li>Course 2 - Week 4 - Topic A</li>
-            <li>Course 2 - Week 4 - Topic B</li>
-            <li>Course 2 - Week 4 - Topic C</li>
+            <li>D. convergent</li>
+            <li>C. symbolic</li>
+            <li>D. all of the given</li>
+             <li>C. “aha”</li>
+            <li>A. factual</li>
+            <li>E. Metacognition</li>
+         <li>D. avoiding reflective discussions</li>
+            <li>B. It is not a skill anybody can develop</li>
+            <li>A. insight</li>
+        <li> D. proposition</li>
             {/* Add more items as needed */}
           </ul>
         );
