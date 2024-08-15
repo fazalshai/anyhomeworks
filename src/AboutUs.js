@@ -1,6 +1,6 @@
 import React from 'react';
 import './AboutUs.css'; // Make sure to create and link the AboutUs.css file
-import fazalImage from './fazal2.jpg';
+import fazalImage1 from './fazal2.jpg';
 
 const teamMembers = [
     {
