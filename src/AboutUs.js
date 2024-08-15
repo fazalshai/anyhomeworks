@@ -33,7 +33,7 @@ const teamMembers = [
 const AboutUs = () => {
     return (
         <div className="about-us">
-            <h1 className="about-us-title"></h1>
+            <h1 className="about-us-title">our team</h1>
             <div className="team-members">
                 {teamMembers.map((member, index) => (
                     <div className={`team-member ${index % 2 === 0 ? 'left' : 'right'}`} key={index}>
