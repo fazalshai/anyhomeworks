@@ -1,17 +1,17 @@
 import React from 'react';
 import './AboutUs.css'; // Make sure to create and link the AboutUs.css file
-import fazalImage1 from './fazal2.jpg';
+import fazalImage from './fazal2.jpg';
 
 const teamMembers = [
     {
         name: "fazal shaik",
-        role: "Partner & Creative Director",
+        role: " Creator & Director",
         image: fazalImage,
         description: "I’m ttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttttt yyyyyyyyyyyy passionate about design and building amazing experiences."
     },
     {
-        name: "Beth Guerrero",
-        role: "Partner & Art Director",
+        name: "Vamsi Krishna",
+        role: "Backend-developer",
         image: "/",
         description: "Art is not just what I do, it's who I am."
     },
