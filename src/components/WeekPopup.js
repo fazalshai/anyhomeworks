@@ -417,6 +417,137 @@ const WeekPopup = ({ course, week, onClose }) => {
           </ul>
         );
         break;
+         else if (course === 	'4.0') {
+    switch (week) {
+      case 'Week 1':
+        content = (
+          <ul>
+            <li>Course 3 - Week 1 - Topic A</li>
+            <li>Course 3 - Week 1 - Topic B</li>
+            <li>Course 3 - Week 1 - Topic C</li>
+            {/* Add more items as needed */}
+          </ul>
+        );
+        break;
+      case 'Week 2':
+        content = (
+          <ul>
+            <li>Course 3 - Week 2 - Topic A</li>
+            <li>Course 3 - Week 2 - Topic B</li>
+            <li>Course 3 - Week 2 - Topic C</li>
+            {/* Add more items as needed */}
+          </ul>
+        );
+        break;
+      case 'Week 3':
+        content = (
+          <ul>
+            <li>Course 3 - Week 3 - Topic A</li>
+            <li>Course 3 - Week 3 - Topic B</li>
+            <li>Course 3 - Week 3 - Topic C</li>
+            {/* Add more items as needed */}
+          </ul>
+        );
+        break;
+      case 'Week 4':
+        content = (
+          <ol>
+            <li>a.hello vamsi</li>
+            <li>Course 3 - Week 4 - Topic B</li>
+            <li>Course 3 - Week 4 - Topic C</li>
+            {/* Add more items as needed */}
+          </ol>
+        );
+        break;
+      case 'Week 5':
+        content = (
+          <ul>
+            <li>Course 3 - Week 5 - Topic A</li>
+            <li>Course 3 - Week 5 - Topic B</li>
+            <li>Course 3 - Week 5 - Topic C</li>
+            {/* Add more items as needed */}
+          </ul>
+        );
+        break;
+      case 'Week 6':
+        content = (
+          <ul>
+            <li>Course 3 - Week 6 - Topic A</li>
+            <li>Course 3 - Week 6 - Topic B</li>
+            <li>Course 3 - Week 6 - Topic C</li>
+            {/* Add more items as needed */}
+          </ul>
+        );
+        break;
+      case 'Week 7':
+        content = (
+          <ul>
+            <li>Course 3 - Week 7 - Topic A</li>
+            <li>Course 3 - Week 7 - Topic B</li>
+            <li>Course 3 - Week 7 - Topic C</li>
+            {/* Add more items as needed */}
+          </ul>
+        );
+        break;
+      case 'Week 8':
+        content = (
+          <ul>
+            <li>Course 3 - Week 8 - Topic A</li>
+            <li>Course 3 - Week 8 - Topic B</li>
+            <li>Course 3 - Week 8 - Topic C</li>
+            {/* Add more items as needed */}
+          </ul>
+        );
+        break;
+      case 'Week 9':
+        content = (
+          <ul>
+            <li>Course 3 - Week 9 - Topic A</li>
+            <li>Course 3 - Week 9 - Topic B</li>
+            <li>Course 3 - Week 9 - Topic C</li>
+            {/* Add more items as needed */}
+          </ul>
+        );
+        break;
+      case 'Week 10':
+        content = (
+          <ul>
+            <li>Course 3 - Week 10 - Topic A</li>
+            <li>Course 3 - Week 10 - Topic B</li>
+            <li>Course 3 - Week 10 - Topic C</li>
+            {/* Add more items as needed */}
+          </ul>
+        );
+        break;
+      case 'Week 11':
+        content = (
+          <ul>
+            <li>Course 3 - Week 11 - Topic A</li>
+            <li>Course 3 - Week 11 - Topic B</li>
+            <li>Course 3 - Week 11 - Topic C</li>
+            {/* Add more items as needed */}
+          </ul>
+        );
+        break;
+      case 'Week 12':
+        content = (
+          <ul>
+            <li>Course 3 - Week 12 - Topic A</li>
+            <li>Course 3 - Week 12 - Topic B</li>
+            <li>Course 3 - Week 12 - Topic C</li>
+            <li>Course 3 - Week 12 - Topic D</li>
+            <li>Course 3 - Week 12 - Topic E</li>
+            <li>Course 3 - Week 12 - Topic F</li>
+            <li>Course 3 - Week 12 - Topic G</li>
+            <li>Course 3 - Week 12 - Topic H</li>
+            <li>Course 3 - Week 12 - Topic I</li>
+            <li>Course 3 - Week 12 - Topic J</li>
+            <li>Course 3 - Week 12 - Topic K</li>
+            <li>Course 3 - Week 12 - Topic L</li>
+            {/* Add more items as needed */}
+          </ul>
+        );
+        break;
       default:
         content = `Content for ${week}...`;
         break;
