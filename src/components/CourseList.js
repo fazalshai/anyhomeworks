@@ -57,7 +57,6 @@ const CourseList = () => {
 
   return (
     <div className="course-list-container">
-      {/* Header with navigation */}
       <header className="App-header">
         <img src="logo.png" alt="Logo" className="App-logo" />
         <nav className="App-nav">
@@ -70,7 +69,6 @@ const CourseList = () => {
         </nav>
       </header>
       
-      {/* Course List */}
       {!showPopup && (
         <div className="course-list">
           {courses.map((course, index) => (
