@@ -286,7 +286,7 @@ const WeekPopup = ({ course, week, onClose }) => {
         content = `Content for ${week}...`;
         break;
     }
-  }  else if (course === 	'Sociology of Development') {
+  }  else if (course ==='Sociology of Development') {
     switch (week) {
       case 'Week 1':
         content = (
@@ -320,12 +320,18 @@ const WeekPopup = ({ course, week, onClose }) => {
         break;
       case 'Week 4':
         content = (
-          <ol>
-            <li>a.hello vamsi</li>
-            <li>Course 3 - Week 4 - Topic B</li>
-            <li>Course 3 - Week 4 - Topic C</li>
+         <ul>
+            <li>1. (c) Ethnocentrism</li>
+            <li>2. (b) Neo-Marxism</li>
+            <li>3. (d) All of these</li>
+            <li>4. (d) All of these</li>
+            <li>5. (a) Ideological, Empirical, and Methodological or Metatheoretical</li>
+            <li>6. (c) Modernization</li>
+            <li>7. (d) Hamza Alavi</li>
+            <li>8. (d) Raul Prebisch</li>
             {/* Add more items as needed */}
-          </ol>
+          </ul>
+
         );
         break;
       case 'Week 5':
