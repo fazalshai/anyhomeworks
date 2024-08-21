@@ -9,7 +9,6 @@ const WeekPopup = ({ course, week, onClose }) => {
       case 'Week 1':
         content = (
           <ul>
-           
             {/* Add more items as needed */}
           </ul>
         );
@@ -37,16 +36,16 @@ const WeekPopup = ({ course, week, onClose }) => {
       case 'Week 4':
         content = (
           <ol>
-            <li> a. actions </li>
+            <li>a. actions</li>
             <li>c. To test the system's usability with respect to the end users</li>
             <li>b. To make the system easier to learn and use</li>
-        <li>a. Gulf of execution</li>
+            <li>a. Gulf of execution</li>
             <li>b. mistakes</li>
-            <li> c. evaluation</li>
-        <li> a. True </li>
+            <li>c. evaluation</li>
             <li>a. True</li>
-            <li> a. Low fidelity</li>
-        <li>c. Wizard of Oz</li>
+            <li>a. True</li>
+            <li>a. Low fidelity</li>
+            <li>c. Wizard of Oz</li>
             {/* Add more items as needed */}
           </ol>
         );
@@ -182,13 +181,13 @@ const WeekPopup = ({ course, week, onClose }) => {
             <li>D. convergent</li>
             <li>C. symbolic</li>
             <li>D. all of the given</li>
-             <li>C. “aha”</li>
+            <li>C. “aha”</li>
             <li>A. factual</li>
             <li>E. Metacognition</li>
-         <li>D. avoiding reflective discussions</li>
+            <li>D. avoiding reflective discussions</li>
             <li>B. It is not a skill anybody can develop</li>
             <li>A. insight</li>
-        <li> D. proposition</li>
+            <li>D. proposition</li>
             {/* Add more items as needed */}
           </ul>
         );
@@ -286,7 +285,7 @@ const WeekPopup = ({ course, week, onClose }) => {
         content = `Content for ${week}...`;
         break;
     }
-  }  else if (course ==='Sociology of Development') {
+  } else if (course === 'Sociology of Development') {
     switch (week) {
       case 'Week 1':
         content = (
@@ -320,7 +319,7 @@ const WeekPopup = ({ course, week, onClose }) => {
         break;
       case 'Week 4':
         content = (
-         <ul>
+          <ul>
             <li>1. (c) Ethnocentrism</li>
             <li>2. (b) Neo-Marxism</li>
             <li>3. (d) All of these</li>
@@ -328,10 +327,9 @@ const WeekPopup = ({ course, week, onClose }) => {
             <li>5. (a) Ideological, Empirical, and Methodological or Metatheoretical</li>
             <li>6. (c) Modernization</li>
             <li>7. (d) Hamza Alavi</li>
-            <li>8. (d) Raul Prebisch</li>
+            <li>8. (d) Raul Prebisch</li>
             {/* Add more items as needed */}
           </ul>
-
         );
         break;
       case 'Week 5':
@@ -423,7 +421,11 @@ const WeekPopup = ({ course, week, onClose }) => {
           </ul>
         );
         break;
-         else if (course === 	'4.0') {
+      default:
+        content = `Content for ${week}...`;
+        break;
+    }
+  } else if (course === '4.0') {
     switch (week) {
       case 'Week 1':
         content = (
@@ -457,12 +459,12 @@ const WeekPopup = ({ course, week, onClose }) => {
         break;
       case 'Week 4':
         content = (
-          <ol>
-            <li>a.hello vamsi</li>
+          <ul>
+            <li>a. hello vamsi</li>
             <li>Course 3 - Week 4 - Topic B</li>
             <li>Course 3 - Week 4 - Topic C</li>
             {/* Add more items as needed */}
-          </ol>
+          </ul>
         );
         break;
       case 'Week 5':
@@ -559,15 +561,17 @@ const WeekPopup = ({ course, week, onClose }) => {
         break;
     }
   } else {
-    content = `Content for ${week}...`;
+    content = `Content for ${course}...`;
   }
 
   return (
-    <div className="popup-overlay">
-      <div className="popup-content">
-        <span className="close-btn" onClick={onClose}>&times;</span>
+    <div className="week-popup">
+      <div className="week-popup-content">
+        <span className="week-popup-close" onClick={onClose}>&times;</span>
         <h2>{course} - {week}</h2>
-        <div>{content}</div>
+        <div className="week-popup-body">
+          {content}
+        </div>
       </div>
     </div>
   );
